@@ -3,7 +3,6 @@ import QuestionRenderer from "@/components/QuestionRenderer";
 import styles from "./TestArea.module.css";
 
 interface TestAreaProps {
-  mode: Mode;
   currentQuestion: Question;
   currentIndex: number;
   total: number;
@@ -13,7 +12,6 @@ interface TestAreaProps {
 }
 
 const TestArea = ({
-  mode,
   currentQuestion,
   currentIndex,
   total,
