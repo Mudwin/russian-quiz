@@ -1,4 +1,4 @@
-import type { Mode, Question } from "@/types";
+import type { Question } from "@/types";
 import QuestionRenderer from "@/components/QuestionRenderer";
 import styles from "./TestArea.module.css";
 

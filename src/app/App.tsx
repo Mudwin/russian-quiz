@@ -172,7 +172,6 @@ export default function App() {
       {phase === "active" && mode === "trainer" && (
         <TestArea
           key="trainer"
-          mode="trainer"
           currentQuestion={trainer.currentQuestion}
           currentIndex={trainer.currentIndex}
           total={trainer.total}
@@ -185,7 +184,6 @@ export default function App() {
       {phase === "active" && mode === "exam" && (
         <TestArea
           key={`exam-${examRefreshKey}`}
-          mode="exam"
           currentQuestion={examQuestions[examIndex]}
           currentIndex={examIndex}
           total={examQuestions.length}
