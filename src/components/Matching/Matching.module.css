@@ -102,3 +102,43 @@
 .nextBtn:hover {
   background-color: var(--primary-pink-color);
 }
+
+@media (max-width: 600px) {
+  .grid {
+    gap: 1rem;
+  }
+
+  .row {
+    padding: 0.75rem;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .leftCell {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+  }
+
+  .rightGroup {
+    gap: 0.5rem;
+  }
+
+  .rightOption,
+  .rightSelected,
+  .correctSelected,
+  .correctMissed,
+  .incorrectSelected {
+    padding: 0.65rem 1rem;
+    font-size: 0.95rem;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+  }
+
+  .submitBtn,
+  .nextBtn {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    font-size: 1.1rem;
+  }
+}
