@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.option,
+.selected,
+.correctSelected,
+.correctMissed,
+.incorrectSelected {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.option {
+  background-color: var(--primary-surface-0-color);
+  color: var(--primary-text-color);
+  border: 1px solid transparent;
+}
+
+.option:hover {
+  background-color: var(--primary-surface-1-color);
+}
+
+.selected {
+  background-color: var(--primary-surface-2-color);
+  border: 1px solid var(--primary-mauve-color);
+}
+
+.correctSelected {
+  background-color: rgba(166, 227, 161, 0.2);
+  border: 1px solid var(--primary-green-color);
+}
+
+.correctMissed {
+  background-color: rgba(166, 227, 161, 0.2);
+  border: 1px dashed var(--primary-green-color);
+}
+
+.incorrectSelected {
+  background-color: rgba(243, 139, 168, 0.2);
+  border: 1px solid var(--primary-red-color);
+}
+
+.index {
+  font-weight: bold;
+  color: var(--primary-subtext-0-color);
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.submitBtn,
+.nextBtn {
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: var(--primary-mauve-color);
+  color: var(--primary-base-color);
+  transition: background-color 0.2s;
+}
+
+.submitBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.submitBtn:hover:not(:disabled),
+.nextBtn:hover {
+  background-color: var(--primary-pink-color);
+}
