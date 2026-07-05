@@ -17,5 +17,12 @@ export interface Question {
   explanation?: string;
 }
 
+export interface ExamResult {
+  date: string;
+  correct: number;
+  total: number;
+  percentage: number;
+}
+
 export type Mode = "trainer" | "exam";
 export type Phase = "menu" | "active" | "examResult";

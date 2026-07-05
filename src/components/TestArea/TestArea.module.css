@@ -1,0 +1,42 @@
+.test {
+  width: 100%;
+  max-width: 800px;
+  background-color: var(--primary-surface-0-color);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.backBtn {
+  background: none;
+  border: none;
+  outline: 1px solid var(--primary-mauve-color);
+  color: var(--primary-mauve-color);
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+  transition-duration: 0.2s;
+}
+
+.backBtn:hover {
+  background-color: var(--primary-mauve-color);
+  color: var(--primary-base-color);
+}
+
+.counter {
+  color: var(--primary-subtext-0-color);
+  font-size: 0.9rem;
+}
+
+.instruction {
+  color: var(--primary-text-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+}
