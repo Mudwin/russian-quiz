@@ -22,12 +22,12 @@
   display: flex;
   align-items: baseline;
   gap: 0.5rem;
+  outline: 1px solid var(--primary-overlay-1-color);
 }
 
 .option {
   background-color: var(--primary-surface-0-color);
-  color: var(--primary-text-color);
-  border: 1px solid transparent;
+  outline-color: var(--primary-overlay-1-color);
 }
 
 .option:hover {
@@ -35,23 +35,24 @@
 }
 
 .selected {
+  outline-color: var(--primary-mauve-color);
   background-color: var(--primary-surface-2-color);
-  border: 1px solid var(--primary-mauve-color);
 }
 
 .correctSelected {
-  background-color: rgba(166, 227, 161, 0.2);
-  border: 1px solid var(--primary-green-color);
+  outline-color: var(--primary-green-color);
+  background-color: rgba(166, 227, 161, 0.15);
 }
 
 .correctMissed {
-  background-color: rgba(166, 227, 161, 0.2);
-  border: 1px dashed var(--primary-green-color);
+  outline-color: var(--primary-green-color);
+  outline-style: dashed;
+  background-color: rgba(166, 227, 161, 0.08);
 }
 
 .incorrectSelected {
-  background-color: rgba(243, 139, 168, 0.2);
-  border: 1px solid var(--primary-red-color);
+  outline-color: var(--primary-red-color);
+  background-color: rgba(243, 139, 168, 0.15);
 }
 
 .index {
