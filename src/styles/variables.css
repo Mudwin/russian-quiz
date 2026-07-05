@@ -1,0 +1,30 @@
+:root {
+  --primary-rosewater-color: #f5e0dc;
+  --primary-flamingo-color: #f2cdcd;
+  --primary-pink-color: #f5c2e7;
+  --primary-mauve-color: #cba6f7;
+  --primary-red-color: #f38ba8;
+  --primary-maroon-color: #eba0ac;
+  --primary-peach-color: #fab387;
+  --primary-yellow-color: #f9e2af;
+  --primary-green-color: #a6e3a1;
+  --primary-teal-color: #94e2d5;
+  --primary-sky-color: #89dceb;
+  --primary-sapphire-color: #74c7ec;
+  --primary-blue-color: #89b4fa;
+  --primary-lavender-color: #b4befe;
+
+  --primary-text-color: #cdd6f4;
+  --primary-subtext-1-color: #bac2de;
+  --primary-subtext-0-color: #a6adc8;
+  --primary-overlay-2-color: #9399b2;
+  --primary-overlay-1-color: #7f849c;
+  --primary-overlay-0-color: #6c7086;
+  --primary-surface-2-color: #585b70;
+  --primary-surface-1-color: #45475a;
+  --primary-surface-0-color: #313244;
+
+  --primary-base-color: #1e1e2e;
+  --primary-mantle-color: #181825;
+  --primary-crust-color: #11111b;
+}
